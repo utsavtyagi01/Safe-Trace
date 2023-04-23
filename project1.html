@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SUPPLY CHAIN SECURITY SOLUTION</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+	<section class="section-1">
+    	<header>
+    		<img src="safe-trace-website-favicon-color.png" class="logo">
+	    	<nav>
+	    		<li><a href ="c">Home</a></li>
+						<li><a href ="c">About</a></li>
+						<li><a href ="c">Contact Us</a></li>
+	    	</nav>
+    	</header>
+    </section>
+	
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<section class="section-2">
+	<div class="about">
+		<h2>ABOUT US</h2>
+		<p>As a provider of supply chain security services, we offer comprehensive solutions to help businesses protect against threats 
+			such as theft, tampering, and counterfeiting. Our services include secure transportation and storage protocols, rigorous vendor 
+			screening and selection processes, and the use of advanced technologies such as RFID tracking and biometric authentication. 
+			Additionally, we conduct regular risk assessments and audits to ensure that security measures remain up to date and effective.
+			 By prioritizing supply chain security, our customers can mitigate risk, reduce costs, and build trust with their customers and
+			  stakeholders.</p>
+	</div>
+	
+
+
+	<main>
+		<form>
+			<h2>Enter Your Information:</h2>
+			<br>
+			<div class="inputbox">
+				<span>Age</span>
+			</div>
+			<br>
+			<label for="name">Name </label>
+			<input type="text" id="name" name="name" required>
+			<label for="age">Age </label>
+			<input type="number" id="age" required="required">	
+			<label for="gender">Gender:</label>
+			<select id="gender" name="gender" required>
+				<option value="">Select</option>
+				<option value="male">Male</option>
+				<option value="female">Female</option>
+			</select>
+		<label for="product_name">Product Name:</label>
+		<input type="text" id="product_name" name="product_name" required>
+		<label for="manufacturer">Manufacturer:</label>
+		<input type="text" id="manufacturer" name="manufacturer">
+		<label for="production_date">Production Date:</label>
+		<input type="date" id="production_date" name="production_date">
+		<label for="expiration_date">Expiration Date:</label>
+		<input type="date" id="expiration_date" name="expiration_date">
+		<label for="batch_number">Batch Number:</label>
+		<input type="text" id="batch_number" name="batch_number">
+		<label for="quantity">Quantity:</label>
+		<input type="number" id="quantity" name="quantity">
+		<input type="submit" value="Submit">
+		</form>
+		<div id="result"></div>
+	</main>
+
+	<footer>
+		<div class="container">
+		  <div class="row">
+			<div class="col-md-6">
+			  <p>&copy; 2023 Example Website. All rights reserved.</p>
+			</div>
+			<div class="col-md-6">
+			  <ul class="social-icons">
+				<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+				<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+			  </ul>
+			</div>
+		  </div>
+		</div>
+	  </footer>
+	</section>
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+    <script>
+    	$(document).ready(function(){
+    		$(window).on('scroll', function(){
+    			if ($(window).scrollTop()) {
+                    $("header").addClass('bgc');
+    			}else{
+                    $("header").removeClass('bgc');
+    			}
+    		});
+    	});
+    </script>
+	  
+	<script src="script.js"></script>
+</div>
+</body>
+</html>
